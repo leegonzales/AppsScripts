@@ -2,11 +2,14 @@
 
 GPTPromptCompletion is a JavaScript function that makes an API request to OpenAI's GPT-3 language model to complete a prompt. The function takes in four parameters: prompt (the prompt to be completed), input (additional input to the prompt), temperature (sampling temperature of the model), and maxTokens (maximum number of tokens to generate).
 
+## WARNING - this is a good way to accidentally spend a LOT of money calling OpenAIs API endpoints. Be very careful in how you use this function in a spreadsheet. Also be sure your spending caps are set to a sensible limits on the Billing page for OpenAI. 
+
 ## Getting Started
 1. Obtain an API key for OpenAI's GPT-3 API.
-2. Update the OPENAI_API_KEY constant with your API key.
-3. (Optional) Update the GPT_MODEL and GPT_TEMP constants with the desired model and temperature, respectively.
-4. Call the GPTPromptCompletion function with the desired parameters.
+2. Create a new Google Sheet, open Extensions --> Apps Script 
+3. Update the OPENAI_API_KEY constant with your API key.
+4. (Optional) Update the GPT_MODEL and GPT_TEMP constants with the desired model and temperature, respectively.
+5. Call the GPTPromptCompletion function with the desired parameters.
 
 ## Function Details
 
